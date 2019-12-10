@@ -1,4 +1,4 @@
-# paper-scissors-rock
+# Paper scissors rock game
 
 A simple paper scissors rock game versus the computer.
 
