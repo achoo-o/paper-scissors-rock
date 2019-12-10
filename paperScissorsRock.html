@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+	<html>
+		<head>
+			<meta charset="UTF-8">
+			<title>Rock Paper Scissors</title>
+			<link rel="stylesheet" type="text/css" href="stylesheet.css">
+			<link href="https://fonts.googleapis.com/css?family=Orbitron:900&display=swap" rel="stylesheet">
+			<script src="myScript.js"></script>
+		</head>
+		<body>
+			<div id="main">
+				<h1>Let's play paper scissors rock!</h1>
+				<p>You'll be versing me</p>
+				<img src="creature.gif" alt="pixel circle creature">
+				<p>Best of five?</p>
+				<button class="buttons" value="paper" onclick="main(this.value)">Paper</button>
+				<button class="buttons" value="scissors" onclick="main(this.value)">Scissors</button>
+				<button class="buttons" value="rock" onclick="main(this.value)">Rock</button>
+				<p id="description">Let's play!</p>
+				<p id="score">0:0</p>
+				<p id="reset" onclick="reset();">Reset</p>
+			</div>
+		</body>
+	</html>
+	
